@@ -1,7 +1,7 @@
 ---StageOGit---
-   Untracked - ven't stor in git yet
+   Untracked - haven't store in git yet
    Working Directory -editing files
-   Staged -prepare to comit for authorize the change in Local Repository
+   Staged -prepare to commit for authorizing the change in Local Repository
    Local Repository -Kept in the local git Repository
    Remote Repository -Kept in the hosting git Repository
 
@@ -28,8 +28,8 @@
    git checkout -b (name) #Create that CD to (name)
    git checkout <branch name> <file name> #tranfer <filename> form working branch to <branch name>
    ---Git merge command-----
-      git merge (subbranch) #acept all subbranch as one of the master commit
-      --no-ff (subbranch) #ignore all subbranch then covert it to masterbrach commit
+      git merge (subbranch) #acept all subbranch as one of the master commits
+      --no-ff (subbranch) #ignore all subbranch then covert it to master branch commit
 ---Gitignore---
    create file name ".gitignore"
    edit .gitignore
