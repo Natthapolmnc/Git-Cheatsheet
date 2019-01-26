@@ -40,7 +40,7 @@
 ---Remote Repository---
    In local Repository status use command
    git push -u (remote's branch name) (local's branch name) #push code to Remote
-      --delete (remote's branch name) (local's branch name that pushed to repoitory) #delete the branch
+      --delete (remote's branch name) (local's branch name that pushed to repository) #delete the branch
    git fetch (remote's branch name) (local's branch name) #receive the file form remote repository
       --all #receive all change from all branch in remote repository
    git merge #merge remote repository with present code
