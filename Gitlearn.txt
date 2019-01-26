@@ -27,3 +27,6 @@ StageOGit
  git checkout <branch name or commit id> #CD to branch name of commit that given
  git checkout -b (name) #Create that CD to (name)
  git checkout <branch name> <file name> #tranfer <filename> form working branch to <branch name>
+ ---Git merge command-----
+  git merge (subbranch) #acept all subbranch as one of the master commit
+   --no-ff (subbranch) #ignore all subbranch then covert it to masterbrach commit
