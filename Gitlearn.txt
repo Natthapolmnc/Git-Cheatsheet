@@ -1,5 +1,5 @@
 ---StageOGit---
-   Untracked - haven't store in git yet
+   Untracked - haven't stored in git yet
    Working Directory -editing files
    Staged -prepare to commit for authorizing the change in Local Repository
    Local Repository -Kept in the local git Repository
@@ -40,9 +40,9 @@
 ---Remote Repository---
    In local Repository status use command
    git push -u (remote's branch name) (local's branch name) #push code to Remote
-      --delete (remote's branch name) (local's branch name that pushed to repository) #delete the branch
-   git fetch (remote's branch name) (local's branch name) #receive the file form remote repository
-      --all #receive all change from all branch in remote repository
+      --delete (remote's branch name) (local's branch name that pushed to the repository) #delete the branch
+   git fetch (remote's branch name) (local's branch name) #receive the file from the remote repository
+      --all #receive all change from all branch in the remote repository
    git merge #merge remote repository with present code
    git remote add (remote's branch name) (GIT URL) #connect to remote Repository
       -v #show connected remote repository
