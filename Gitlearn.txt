@@ -1,32 +1,50 @@
-StageOGit
- Untracked - ven't stor in git yet
- Working Directory -editing files
- Staged -prepare to comit for authorize the change in Local Respository
- Local Respository -Kept in the local git Respository
- Remote Respository -Kept in the hosting git Respository
+---StageOGit---
+   Untracked - ven't stor in git yet
+   Working Directory -editing files
+   Staged -prepare to comit for authorize the change in Local Respository
+   Local Respository -Kept in the local git Respository
+   Remote Respository -Kept in the hosting git Respository
 
 ---Stage Control command---
- git add #change untracked to Staged
- git reset #change Local Respository to...
-    --hard (commit id) #to untracked
-    --soft (commit id) #to staged
-    --mixed (develop) #to working Directory Branch (develop)
+   git add #change untracked to Staged
+   git reset #change Local Respository to...
+      --hard (commit id) #to untracked
+      --soft (commit id) #to staged
+      --mixed (develop) #to working Directory Branch (develop)
 
- git commit -m "(in""is comment)" #commit staged to Local Respository
- git rm --cached #remove the Local Respository to Untracked
- git log #to print the history of Respository
- git clean -n #show all untracked
- git clean -df #del all untracked
+   git commit -m "(in""is comment)" #commit staged to Local Respository
+   git rm --cached #remove the Local Respository to Untracked
+   git log #to print the history of Respository
+   git clean -n #show all untracked
+   git clean -df #del all untracked
 
 
 ---Git Branch---
- git branch # List all git branch in Respository
- git branch --all #List both remote-tracking branches and local branches.
- git branch develop #Create new git branch
- git branch --delete (name) #delete git branch (name)
- git checkout <branch name or commit id> #CD to branch name of commit that given
- git checkout -b (name) #Create that CD to (name)
- git checkout <branch name> <file name> #tranfer <filename> form working branch to <branch name>
- ---Git merge command-----
-  git merge (subbranch) #acept all subbranch as one of the master commit
-   --no-ff (subbranch) #ignore all subbranch then covert it to masterbrach commit
+   git branch # List all git branch in Respository
+   git branch --all #List both remote-tracking branches and local branches.
+   git branch develop #Create new git branch
+   git branch --delete (name) #delete git branch (name)
+   git checkout <branch name or commit id> #CD to branch name of commit that given
+   git checkout -b (name) #Create that CD to (name)
+   git checkout <branch name> <file name> #tranfer <filename> form working branch to <branch name>
+   ---Git merge command-----
+      git merge (subbranch) #acept all subbranch as one of the master commit
+      --no-ff (subbranch) #ignore all subbranch then covert it to masterbrach commit
+---Gitignore---
+   create file name ".gitignore"
+   edit .gitignore
+   """ (filename)
+   /(foldername)
+   """
+   commit it
+---Remote Respository---
+   In local Respository status use command
+   git push -u (remote's branch name) (local's branch name) #push code to Remote
+      --delete (remote's branch name) (local's branch name that pushed to respository) #delete the branch
+   git fetch (remote's branch name) (local's branch name) #receive the file form remote respository
+      --all #receive all change from all branch in remote respository
+   git merge #merge remote respository with present code
+   git remote add (remote's branch name) (GIT URL) #connect to remote Respository
+      -v #show connected remote respository
+   git pull <remote> <branch> #fetch+merge
+   git clone <url> #clone remote respository
